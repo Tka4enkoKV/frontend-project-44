@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Brain games",
   "bin": {
-  "brain-games": "bin/brain-games.js"
-},
+    "brain-games": "bin/brain-games.js"
+  },
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Tka4enkoKV/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/Tka4enkoKV/frontend-project-44#readme"
+  "homepage": "https://github.com/Tka4enkoKV/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
