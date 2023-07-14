@@ -4,6 +4,8 @@ import greeting from '../src/cli.js';
 
 const generateRandomNumber = () => Math.floor(Math.random() * 100);
 
+const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
+
 const askQuestion = (number) => {
   console.log(`Question: ${number}`);
   return readlineSync.question('Your answer: ');
@@ -23,7 +25,7 @@ const checkAnswer = (answer, number, name) => {
 
 const playGame = () => {
   const name = greeting();
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+  console.log(gameRules);
   let win = 0;
   while (win < 3) {
     const number = generateRandomNumber();
