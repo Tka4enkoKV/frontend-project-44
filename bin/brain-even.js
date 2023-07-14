@@ -2,7 +2,7 @@
 import readlineSync from 'readline-sync';
 import greeting from '../src/cli.js';
 
-const generateRandomNumber = () => Math.floor(Math.random() * 100);
+const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
