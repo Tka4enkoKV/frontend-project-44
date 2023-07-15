@@ -4,3 +4,6 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2cde5fd0ccb5f547afb6/test_coverage)](https://codeclimate.com/github/Tka4enkoKV/frontend-project-44/test_coverage)
 
 https://asciinema.org/a/YIULACUwKmQVi64norHDmCtKK
+
+brain-calc
+https://asciinema.org/a/txUB9oXaBtRqMBkQ2Vfrgh3oa
