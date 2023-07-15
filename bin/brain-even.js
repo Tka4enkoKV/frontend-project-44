@@ -1,7 +1,5 @@
 #!/usr/bin/env node
-import playGame from '../src/index.js';
-
-const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
+import { playGame, generateRandomNumber } from '../src/index.js';
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 

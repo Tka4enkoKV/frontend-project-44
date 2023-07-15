@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync/lib/readline-sync.js';
 import greeting from './cli.js';
 
+const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
+
 const playGame = (gameRules, isCorrect) => {
   const name = greeting();
   console.log(gameRules);
@@ -20,4 +22,4 @@ const playGame = (gameRules, isCorrect) => {
   console.log(`Congratulations, ${name}!`);
 };
 
-export default playGame;
+export { playGame, generateRandomNumber };
