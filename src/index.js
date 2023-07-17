@@ -16,7 +16,7 @@ const playGame = (gameRules, isCorrect) => {
     } else {
       console.log(`'${userAnswer}' is a wrong answer ;(. Correct answer was '${correctAnswer}'`);
       console.log(`Let's try again, ${name}!`);
-      win = 0;
+      return;
     }
   }
   console.log(`Congratulations, ${name}!`);
