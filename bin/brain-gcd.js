@@ -4,10 +4,8 @@ import { playGame, generateRandomNumber } from '../src/index.js';
 const gameRules = 'Find the greatest common divisor of given numbers.';
 
 const calculateGCD = (number1, number2) => {
-  while (number2 !== 0) {
-    const remainder = number1 % number2;
-    number1 = number2;
-    number2 = remainder;
+  if (number2 !== 0) {
+    return calculateGCD(number2, number1 % number2);
   }
   return number1;
 };
