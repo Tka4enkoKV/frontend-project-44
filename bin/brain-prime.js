@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { playGame, generateRandomNumber } from '../src/index.js';
 
-const gameRules = 'Answer "yes" if the number is prime, otherwise answer "no".';
+const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
   if (number <= 1) {
