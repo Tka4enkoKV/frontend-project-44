@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "Brain games",
+  "description": "Brain games - 5 console educational games, where user should give 3 correct answers in a row to win",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -24,7 +24,7 @@
     "hexlet",
     "project"
   ],
-  "author": "",
+  "author": "Tkachenko Konstantin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tka4enkoKV/frontend-project-44/issues"
