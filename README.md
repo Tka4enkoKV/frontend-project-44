@@ -21,46 +21,41 @@ npm link
 The set of games to include:
 
 ### 1. Brain-even
-You need to define an even number.<br>
 **To launch:**
 ```
 brain-even
 ```
-<br>
+You need to define an even number.
 [![asciicast](https://asciinema.org/a/URSiRy9iMVYJRXqXOBw1gWiYU.svg)](https://asciinema.org/a/URSiRy9iMVYJRXqXOBw1gWiYU)
 
 ### 2. Brain-calc
-Calculate the result.<br>
 **To launch:**
 ```
 brain-calc
 ```
-<br>
+Calculate the result.
 [![asciicast](https://asciinema.org/a/txUB9oXaBtRqMBkQ2Vfrgh3oa.svg)](https://asciinema.org/a/txUB9oXaBtRqMBkQ2Vfrgh3oa)
 
 ### 3. Brain-gcd
-Find the greatest common divider.<br>
 **To launch:**
 ```
 brain-gcd
 ```
-<br>
+Find the greatest common divider.
 [![asciicast](https://asciinema.org/a/Arg6jhznENbEGYxs2yTuTPnhl.svg)](https://asciinema.org/a/Arg6jhznENbEGYxs2yTuTPnhl)
 
 ### 4. Brain-progression
-Fill in the missing progression number.<br>
 **To launch:**
 ```
 brain-progression
 ```
-<br>
+Fill in the missing progression number.
 [![asciicast](https://asciinema.org/a/N2StBUVjd7idztl10R2T6vk6q.svg)](https://asciinema.org/a/N2StBUVjd7idztl10R2T6vk6q)
 
 ### 5. Brain-prime
-You need to define a prime number.<br>
 **To launch:**
 ```
 brain-prime
 ```
-<br>
+You need to define a prime number.
 [![asciicast](https://asciinema.org/a/TpIPfibBDHF41gCguUT5G8RCb.svg)](https://asciinema.org/a/TpIPfibBDHF41gCguUT5G8RCb)
