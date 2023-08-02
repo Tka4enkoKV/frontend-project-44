@@ -26,6 +26,7 @@ You need to define an even number.<br>
 ```
 brain-even
 ```
+<br>
 [![asciicast](https://asciinema.org/a/URSiRy9iMVYJRXqXOBw1gWiYU.svg)](https://asciinema.org/a/URSiRy9iMVYJRXqXOBw1gWiYU)
 
 ### 2. Brain-calc
@@ -34,6 +35,7 @@ Calculate the result.<br>
 ```
 brain-calc
 ```
+<br>
 [![asciicast](https://asciinema.org/a/txUB9oXaBtRqMBkQ2Vfrgh3oa.svg)](https://asciinema.org/a/txUB9oXaBtRqMBkQ2Vfrgh3oa)
 
 ### 3. Brain-gcd
@@ -42,6 +44,7 @@ Find the greatest common divider.<br>
 ```
 brain-gcd
 ```
+<br>
 [![asciicast](https://asciinema.org/a/Arg6jhznENbEGYxs2yTuTPnhl.svg)](https://asciinema.org/a/Arg6jhznENbEGYxs2yTuTPnhl)
 
 ### 4. Brain-progression
@@ -50,6 +53,7 @@ Fill in the missing progression number.<br>
 ```
 brain-progression
 ```
+<br>
 [![asciicast](https://asciinema.org/a/N2StBUVjd7idztl10R2T6vk6q.svg)](https://asciinema.org/a/N2StBUVjd7idztl10R2T6vk6q)
 
 ### 5. Brain-prime
@@ -58,4 +62,5 @@ You need to define a prime number.<br>
 ```
 brain-prime
 ```
+<br>
 [![asciicast](https://asciinema.org/a/TpIPfibBDHF41gCguUT5G8RCb.svg)](https://asciinema.org/a/TpIPfibBDHF41gCguUT5G8RCb)
