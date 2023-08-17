@@ -20,7 +20,7 @@ const calculateExpression = (number1, operator, number2) => {
   return result;
 };
 
-const isCorrect = () => {
+const getGameLogic = () => {
   const number1 = generateRandomNumber(1, 50);
   const number2 = generateRandomNumber(1, 50);
   const operators = ['+', '-', '*'];
@@ -32,6 +32,6 @@ const isCorrect = () => {
   return String(result);
 };
 
-const runGame = () => playGame(gameRules, isCorrect);
+const runGame = () => playGame(gameRules, getGameLogic);
 
 export default runGame;

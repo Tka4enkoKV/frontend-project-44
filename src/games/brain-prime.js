@@ -14,12 +14,12 @@ const isPrime = (number) => {
   return true;
 };
 
-const isCorrect = () => {
+const getGameLogic = () => {
   const number = generateRandomNumber(1, 50);
   console.log(`Question: ${number}`);
   return isPrime(number) ? 'yes' : 'no';
 };
 
-const runGame = () => playGame(gameRules, isCorrect);
+const runGame = () => playGame(gameRules, getGameLogic);
 
 export default runGame;

@@ -9,7 +9,7 @@ const calculateGCD = (number1, number2) => {
   return number1;
 };
 
-const isCorrect = () => {
+const getGameLogic = () => {
   const number1 = generateRandomNumber(1, 100);
   const number2 = generateRandomNumber(1, 100);
   const question = `${number1} ${number2}`;
@@ -18,6 +18,6 @@ const isCorrect = () => {
   return String(result);
 };
 
-const runGame = () => playGame(gameRules, isCorrect);
+const runGame = () => playGame(gameRules, getGameLogic);
 
 export default runGame;
