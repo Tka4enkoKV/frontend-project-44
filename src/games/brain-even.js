@@ -4,12 +4,13 @@ const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (number) => number % 2 === 0;
 
-const getGameLogic = () => {
+const generateQuestion = () => {
   const number = generateRandomNumber(1, 20);
-  console.log(`Question: ${number}`);
-  return isEven(number) ? 'yes' : 'no';
+  return number;
 };
 
-const runGame = () => playGame(gameRules, getGameLogic);
+const getGameLogic = (number) => (isEven(number) ? 'yes' : 'no');
+
+const runGame = () => playGame(gameRules, getGameLogic, generateQuestion);
 
 export default runGame;

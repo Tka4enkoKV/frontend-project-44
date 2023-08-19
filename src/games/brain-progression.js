@@ -10,19 +10,31 @@ const generateProgression = (start, step, length) => {
   return progression;
 };
 
-const getGameLogic = () => {
+const generateQuestion = () => {
   const start = generateRandomNumber(1, 50);
   const step = generateRandomNumber(2, 5);
   const hidden = generateRandomNumber(1, 9);
   const length = 10;
   const progression = generateProgression(start, step, length);
-  const closedNumber = progression[hidden];
   progression[hidden] = '..';
   const question = progression.join(' ');
-  console.log(`Question: ${question}`);
-  return String(closedNumber);
+  return question;
 };
 
-const runGame = () => playGame(gameRules, getGameLogic);
+const getGameLogic = (question) => {
+  const elements = question.split(' ');
+  let hiddenIndex;
+  for (let i = 0; i < elements.length; i += 1) {
+    if (elements[i] === '..') {
+      hiddenIndex = i;
+    }
+  }
+  const step = (Number(elements[hiddenIndex + 1]) - Number(elements[hiddenIndex - 1])) / 2;
+  const firstValue = hiddenIndex === 0 ? Number(elements[1]) - step : Number(elements[0]);
+  const hiddenValue = firstValue + step * hiddenIndex;
+  return String(hiddenValue);
+};
+
+const runGame = () => playGame(gameRules, getGameLogic, generateQuestion);
 
 export default runGame;
